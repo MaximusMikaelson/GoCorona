@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+   font-family: "Rubik", sans-serif;
+   font-size: 12px;
+   color: #616161;
+}
+
+.wrapper {
+   overflow: hidden; /* ??? */
+   display: flex;
+   flex-direction: column;
+   min-height: 100%; /* ??? */
+}
+.main {
+   flex: 1 1 auto; /* main расширяется и прижимает футер к низу */
+}
+[class*="__container"] {
+   /* селектор атрибута ??? */
+   max-width: 1057px; /* ??? */
+   margin: 0 auto; /* ??? */
+}
+.header {
+}
+.header__container {
+   display: flex; /* ??? */
+   min-height: 114px; /* ??? */
+   align-items: center; /* для выравнивания: по горизонтали или по вертикали??? */
+}
+.header__logo {
+}
+.header__menu {
+   flex: 1 1 auto; /* ??? есть урок-шорт на канале фрилансер по жизни */
+}
+.menu {
+}
+.menu__list {
+   display: flex; /* ??? */
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__button {
+   flex: 0 0 252px; /* ??? */
+   display: flex; /* ??? */
+   justify-content: flex-end; /* ??? */
+}
+.button {
+   display: inline-block;
+   font-family: "Raleway";
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 10px;
+   line-height: 12px;
+   letter-spacing: 1px;
+   color: #fcfdfe;
+   padding: 14px 30px;
+   border-radius: 5px;
+   background-color: #ec5863;
+}
+.button__blue {
+   background-color: #4285f4;
+}
+.button:hover {
+   background-color: #eb787f;
+}
+.button__blue:hover {
+   background-color: #68a0fa;
+}
+.main {
+}
+.footer {
+}
+/* 60 + 5 min */
