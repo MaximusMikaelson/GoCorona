@@ -464,7 +464,7 @@ body {
 }
 .healthcare__item {
    flex: 0 1 33.333%;
-   margin-bottom: 176px;
+   margin-bottom: 70px;
 }
 .item-healthcare {
    border-radius: 8px;
@@ -494,5 +494,34 @@ body {
    letter-spacing: 0.08em;
    text-align: center;
    color: #616161;
+}
+/* ???!!! доделать декор */
+
+/*
+.item-healthcare_1 {
+}
+.item-healthcare_1::before {
+   content: "";
+   width: 65px;
+   height: 65px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transform: rotate(-30deg);
+}*/
+
+/* ========================== FOOTER ========================== */
+.footer {
+   padding: 45px 0;
+}
+.footer__container {
+}
+.footer__items {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+.footer__item {
 }
 /* 60 + 60 + 60 + 34 min */
